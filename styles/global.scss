@@ -1,3 +1,39 @@
-h1{
-    color: rgb(239, 0, 0);
+header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    font-size:20px;
+    font-weight:bold;
+    section{
+        margin-top:26px;
+        Image{
+            // width:131px !important;
+            // height:50px!important;
+        }
+    }
+    nav{
+        width:30%;
+        ul{
+            padding-left:0px;
+            display:flex;
+            justify-content: space-between;
+            li{
+                list-style-type:none;
+                a{
+                text-decoration: none;
+                }
+            }
+        }
+    }
+    .button{
+     color:white;
+     width: 172px;
+     height: 44px;
+     text-align: center;
+     margin-top:26px;
+     background: 
+     linear-gradient(#55D0FD,#789FFF)
+     ;
+     border-radius: 30px;
+    }
 }
